@@ -97,8 +97,8 @@ class Visualizer {
 
 void setup() {
   size(600, 500);
-  v = new Visualizer(20, 20);
-  //v = new Visualizer(20, 20, 200, 300, 20);
+  //v = new Visualizer(20, 20);
+  v = new Visualizer(20, 20, 200, 300, 30);
 }
 void draw() {
   background(255);
